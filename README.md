@@ -1,4 +1,4 @@
-# Taburno - Camposauro - Mappa Geologica
+# Taburno - Camposauro - Carta Geologica
 
 Questo progetto documenta la digitalizzazione e la realizzazione di una mappa geologica tematica del massiccio del Taburno-Camposauro, mediante l’uso di dati geologici, litostratigrafici e strutturali integrati e gestiti in ambiente GIS.
 
