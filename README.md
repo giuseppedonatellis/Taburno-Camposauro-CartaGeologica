@@ -30,5 +30,4 @@ Il risultato finale è una mappa geologica vettorializzata del massiccio del Tab
 
 ## Accesso ai dati
 
-I file GIS e la carta geologica dell’area del Parco Regionale del Taburno-Camposauro sono disponibili al seguente link:
-
+I file GIS e la carta geologica dell’area del Parco Regionale del Taburno-Camposauro sono disponibili al seguente link: https://drive.google.com/file/d/1jIclogDWGNrE5Kltd0SFRgKTrW25aeVk/view?usp=drive_link
