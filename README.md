@@ -2,6 +2,8 @@
 
 Questo progetto documenta la digitalizzazione e la realizzazione di una mappa geologica tematica del massiccio del Taburno-Camposauro, mediante l’uso di dati geologici, litostratigrafici e strutturali integrati e gestiti in ambiente GIS.
 
+---
+
 ## Fasi operative
 
 - Digitalizzazione delle unità litostratigrafiche in formato poligonale
@@ -16,17 +18,25 @@ Questo progetto documenta la digitalizzazione e la realizzazione di una mappa ge
 - Composizione cartografica finale ed esportazione della mappa in formato .jpg, .tiff o .pdf (A4)
 - Inserimento degli elementi accessori: freccia del nord, barra di scala, legenda e coordinate
 
+---
+
 ## Software utilizzato
 
 - QGIS versione 3.30.4
+
+---
 
 ## Output
 
 Il risultato finale è una mappa geologica vettorializzata del massiccio del Taburno-Camposauro, esportata in formato cartaceo e digitale (A4), completa di tutti gli elementi cartografici essenziali.
 
+---
+
 ## Licenza
 
 - I dati utilizzati per la digitalizzazione derivano da fonti scientifiche ed esercitazioni accademiche. Si consiglia di verificare le licenze d'uso originali se si intende ridistribuire il progetto o i relativi shapefile.
+
+---
 
 ## Accesso ai dati
 https://drive.google.com/drive/folders/16KDHj1bOByk77aWQvLhcWiasRQF2U1bN?usp=drive_link
