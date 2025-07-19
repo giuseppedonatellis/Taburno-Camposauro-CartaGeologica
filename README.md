@@ -20,6 +20,11 @@ Questo progetto documenta la digitalizzazione e la realizzazione di una mappa ge
 
 ---
 
+## Autore
+Giuseppe Donatellis
+
+---
+
 ## Software utilizzato
 
 - QGIS versione 3.30.4
