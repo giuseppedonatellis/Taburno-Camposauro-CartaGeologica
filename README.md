@@ -1,47 +1,37 @@
-# Taburno - Camposauro - Carta Geologica
+# Carta geologica del Taburno-Camposauro
 
-Questo progetto documenta la digitalizzazione e la realizzazione di una mappa geologica tematica del massiccio del Taburno-Camposauro, mediante l’uso di dati geologici, litostratigrafici e strutturali integrati e gestiti in ambiente GIS.
+## Descrizione sintetica:
+Questo progetto cartografico ha come obiettivo la costruzione di una mappa geologica dell’area del Taburno-Camposauro attraverso l’integrazione di diversi dati vettoriali e raster (linee, poligoni, punti e raster georeferenziati). Il progetto è stato realizzato tramite QGIS.
 
----
+## Fasi operative:
+1. Importazione della base raster geologica dell’area Taburno-Camposauro, opportunamente georeferenziata.
+2. Importazione degli shapefile vettoriali:
+   - Linee geologiche simboliche (es. faglie, giunti, letti di strato)
+   - Poligoni con unità geologiche (es. Miocene, Pleistocene, Triassico)
+   - Punti geologici (es. comuni, sondaggi, tephra)
+3. Categorizzazione dei poligoni geologici in base all’età e composizione litologica.
+4. Simbologia delle linee vettoriali secondo la rappresentazione convenzionale geologica (bedding, thrust, ecc.).
+5. Etichettatura dei punti e definizione dei simboli personalizzati per ciascuna tipologia.
+6. Composizione della carta geologica in layout di stampa.
 
-## Fasi operative
+## Output:
+La carta geologica finale del Taburno-Camposauro è stata esportata in formato .jpg, .pdf e .tif in scala 1:74.151 e formato A4. La mappa contiene tutti gli elementi cartografici accessori:
+- Freccia del nord
+- Barra di scala
+- Legenda
+- Coordinate
+- Titolo della carta
 
-- Digitalizzazione delle unità litostratigrafiche in formato poligonale
-- Rappresentazione delle strutture tettoniche tramite linee simboliche (faglie normali, trascorrenti, sovrascorrimenti, bedding)
-- Inserimento dei punti simbolici per:
-  - Localizzazione dei sondaggi
-  - Tephra
-  - Toponimi
-  - Comuni
-- Etichettatura dei siti e delle strutture con i relativi codici o nomi
-- Simbologia personalizzata per poligoni, linee e punti in base alla legenda geologica
-- Composizione cartografica finale ed esportazione della mappa in formato .jpg, .tiff o .pdf (A4)
-- Inserimento degli elementi accessori: freccia del nord, barra di scala, legenda e coordinate
+## Software utilizzato:
+QGIS 3.30.4
 
----
-
-## Autore
-Giuseppe Donatellis
-
----
-
-## Software utilizzato
-
-- QGIS versione 3.30.4
-
----
-
-## Output
-
-Il risultato finale è una mappa geologica vettorializzata del massiccio del Taburno-Camposauro, esportata in formato cartaceo e digitale (A4), completa di tutti gli elementi cartografici essenziali.
-
----
-
-## Licenza
-
-- I dati utilizzati per la digitalizzazione derivano da fonti scientifiche ed esercitazioni accademiche. Si consiglia di verificare le licenze d'uso originali se si intende ridistribuire il progetto o i relativi shapefile.
-
----
+## File principali:
+- geologica camposauro modificato.tif (raster georeferenziato)
+- Linee-simboliche.shp (linee geologiche)
+- Poligoni-simbolici.shp (unità geologiche)
+- Punti-simbolici.shp (localizzazione punti)
+- Stile_Punti-simbolici.qml (file stile layer)
+- Mappa-geologica_Camposauro.jpg / .pdf / .tif (output finale)
 
 ## Accesso ai dati
 https://drive.google.com/drive/folders/16KDHj1bOByk77aWQvLhcWiasRQF2U1bN?usp=drive_link
